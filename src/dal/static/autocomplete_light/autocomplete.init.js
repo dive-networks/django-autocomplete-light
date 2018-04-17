@@ -19,7 +19,7 @@ element was cloned with data - which should be the case.
     }
 
     $(document).ready(function() {
-        $('[data-autocomplete-light-function]:not([id*="__prefix__"])').each(initialize);
+        $('[data-autocomplete-light-function]:not([name*="__prefix__"])').each(initialize);
     });
 
     $(document).bind('DOMNodeInserted', function(e) {
